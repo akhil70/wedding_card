@@ -1,0 +1,37 @@
+.header{
+    background-image: url(../img/hero.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 40vh;
+    margin: 0;
+    padding-top: 60vh;
+}
+.heading {
+    color: #ffffff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: 6em;
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+    margin-left: 30%;
+    color: rgb(99, 201, 10);
+
+}
+
+.heading-subtext{
+    color: #fff;
+    display: block;
+    font-family: 'Caveat', cursive;
+    font-size: .6em;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    .heading {
+        font-size: 4em;
+        margin-left: 0%;
+    }
+  }
